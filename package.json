@@ -1,20 +1,12 @@
 {
-  "name": "webapp",
-  "type": "module",
+  "name": "wjadlink",
+  "version": "1.0.0",
+  "description": "WJadlink AI 상담 에이전트 웹사이트",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "wrangler pages dev",
-    "deploy": "npm run build && wrangler pages deploy",
-    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'"
   },
-  "dependencies": {
-    "hono": "^4.12.5"
-  },
-  "devDependencies": {
-    "@hono/vite-build": "^1.2.0",
-    "@hono/vite-dev-server": "^0.18.2",
-    "vite": "^6.3.5",
-    "wrangler": "^4.4.0"
+  "engines": {
+    "node": ">=18"
   }
 }
