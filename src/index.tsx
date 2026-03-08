@@ -107,15 +107,15 @@ function getFallbackResponse(userMessage: string): string {
   const msg = userMessage.toLowerCase()
 
   if (msg.includes('가격') || msg.includes('비용') || msg.includes('얼마')) {
-    return `💰 **WJadlink 서비스 플랜 안내**\n\n⚙️ **Basic** 비즈니스 자동화 — **150,000원~**\n💻 **Standard** 고성능 랜딩페이지 — **450,000원~**\n💎 **Deluxe** 올인원팩 — **550,000원~** ⭐Most Popular\n🛠️ **Premium** 하이엔드 커스텀 — **800,000원~**\n\n사장님의 상황에 맞는 플랜을 1:1로 진단해 드립니다!\n👉 [무료 진단 신청](https://forms.gle/6NHjfdNv8xNHuzCG7)`
+    return `💰 **WJadlink 서비스 플랜 안내**\n\n⚙️ **Basic** 비즈니스 자동화 — **150,000원~**\n💻 **Standard** 고성능 랜딩페이지 — **450,000원~**\n💎 **Deluxe** 올인원팩 — **550,000원~** ⭐Most Popular\n🛠️ **Premium** 하이엔드 커스텀 — **800,000원~**\n\n사장님의 상황에 맞는 플랜을 구글 폼으로 신청해 주세요!\n👉 [구글 폼 신청](https://forms.gle/6NHjfdNv8xNHuzCG7)`
   }
 
   if (msg.includes('자동화') || msg.includes('zapier') || msg.includes('폼')) {
-    return `⚙️ **비즈니스 자동화 솔루션**\n\n고객 문의가 들어오면 **자동으로** 안내 메일이 발송되고, 데이터가 구글 시트에 기록됩니다.\n\n✅ 구글 폼 구축\n✅ Zapier 자동 메일 발송\n✅ 실시간 DB 시트 기록\n\n**24시간 무인 응대**로 운영 효율 300% 향상! 🚀\n\n👉 자세한 상담: [진단 신청](https://forms.gle/6NHjfdNv8xNHuzCG7)`
+    return `⚙️ **비즈니스 자동화 솔루션**\n\n고객 문의가 들어오면 **자동으로** 안내 메일이 발송되고, 데이터가 구글 시트에 기록됩니다.\n\n✅ 구글 폼 구축\n✅ Zapier 자동 메일 발송\n✅ 실시간 DB 시트 기록\n\n**24시간 무인 응대**로 운영 효율 300% 향상! 🚀\n\n👉 구글 폼으로 신청: [구글 폼 신청](https://forms.gle/6NHjfdNv8xNHuzCG7)`
   }
 
   if (msg.includes('랜딩') || msg.includes('홈페이지') || msg.includes('웹사이트') || msg.includes('사이트')) {
-    return `💻 **고성능 랜딩페이지 제작**\n\nNext.js + Tailwind CSS 기반으로 **일반 사이트보다 3배 빠른** 로딩 속도를 구현합니다.\n\n✅ SEO 최적화로 검색 상위 노출\n✅ 모바일 완벽 대응 반응형 UI\n✅ 전환율 극대화 설계\n\n📌 레퍼런스: [깜푸디자인](https://www.kkampoo.com/)\n\n👉 [상세 진단 신청](https://forms.gle/6NHjfdNv8xNHuzCG7)`
+    return `💻 **고성능 랜딩페이지 제작**\n\nNext.js + Tailwind CSS 기반으로 **일반 사이트보다 3배 빠른** 로딩 속도를 구현합니다.\n\n✅ SEO 최적화로 검색 상위 노출\n✅ 모바일 완벽 대응 반응형 UI\n✅ 전환율 극대화 설계\n\n📌 레퍼런스: [깜푸디자인](https://www.kkampoo.com/)\n\n👉 [구글 폼 신청](https://forms.gle/6NHjfdNv8xNHuzCG7)`
   }
 
   if (msg.includes('포트폴리오') || msg.includes('작업물') || msg.includes('레퍼런스')) {
@@ -123,7 +123,7 @@ function getFallbackResponse(userMessage: string): string {
   }
 
   if (msg.includes('연락') || msg.includes('상담') || msg.includes('전화') || msg.includes('문의')) {
-    return `📞 **1:1 무료 상담 안내**\n\n**대표 염우진**이 직접 상담해 드립니다.\n\n📱 전화: **010-6376-7604**\n📧 이메일: woojin052501@gmail.com\n\n또는 아래 폼을 작성해 주시면 **24시간 이내** 연락드립니다:\n👉 [프로젝트 진단 신청](https://forms.gle/6NHjfdNv8xNHuzCG7)`
+    return `📞 **1:1 무료 상담 안내**\n\n**대표 염우진**이 직접 상담해 드립니다.\n\n📱 전화: **010-6376-7604**\n📧 이메일: woojin052501@gmail.com\n\n아래 구글 폼을 작성해 주시면 **24시간 이내** 연락드립니다:\n👉 [구글 폼 신청](https://forms.gle/6NHjfdNv8xNHuzCG7)`
   }
 
   // 기본 인삿말
@@ -295,7 +295,7 @@ function getMainPage(): string {
     </div>
     <a href="https://forms.gle/6NHjfdNv8xNHuzCG7" target="_blank"
        class="btn-primary text-white text-sm font-semibold px-5 py-2.5 rounded-xl">
-      무료 진단 신청
+      구글 폼 신청
     </a>
   </div>
 </nav>
@@ -326,7 +326,7 @@ function getMainPage(): string {
       <a href="https://forms.gle/6NHjfdNv8xNHuzCG7" target="_blank"
          class="btn-primary text-white font-bold px-10 py-4 rounded-2xl text-lg flex items-center justify-center gap-2">
         <i class="fas fa-rocket"></i>
-        무료 비즈니스 진단 신청
+        구글 폼 신청하기
       </a>
       <a href="#services"
          class="card-glass text-white/80 hover:text-white font-semibold px-10 py-4 rounded-2xl text-lg flex items-center justify-center gap-2 transition-all hover:border-brand/40">
@@ -440,7 +440,7 @@ function getMainPage(): string {
       <a href="https://forms.gle/6NHjfdNv8xNHuzCG7" target="_blank"
          class="btn-primary text-white font-bold px-10 py-4 rounded-2xl text-lg inline-flex items-center gap-2">
         <i class="fas fa-clipboard-list"></i>
-        어떤 플랜이 맞는지 무료 진단받기
+        구글 폼으로 플랜 신청하기
       </a>
     </div>
   </div>
@@ -537,7 +537,7 @@ function getMainPage(): string {
       <div class="flex gap-5 card-glass rounded-2xl p-6 items-start group hover:border-brand/30 transition-all">
         <div class="w-12 h-12 min-w-[3rem] bg-brand/20 rounded-xl flex items-center justify-center text-brand-light font-black text-lg">01</div>
         <div>
-          <h3 class="text-white font-bold text-lg mb-1">무료 1:1 진단 신청</h3>
+          <h3 class="text-white font-bold text-lg mb-1">구글 폼 신청</h3>
           <p class="text-white/50 text-sm">폼 작성 → 대표 직접 검토 → 24시간 이내 연락. 비즈니스 현황과 목표를 파악합니다.</p>
         </div>
       </div>
@@ -575,8 +575,8 @@ function getMainPage(): string {
         지금 바로 시작하세요
       </h2>
       <p class="text-white/60 text-lg mb-8 max-w-2xl mx-auto">
-        사장님의 비즈니스에 가장 적합한 시스템을 <strong class="text-white">1:1로 진단</strong>해 드립니다.<br>
-        아래 폼을 작성해 주시면 대표가 직접 검토 후 <strong class="text-brand-light">24시간 이내</strong>에 연락드립니다.
+        사장님의 비즈니스에 가장 적합한 시스템을 <strong class="text-white">1:1로 안내</strong>해 드립니다.<br>
+        아래 구글 폼을 작성해 주시면 대표가 직접 검토 후 <strong class="text-brand-light">24시간 이내</strong>에 연락드립니다.
       </p>
       <a href="https://forms.gle/6NHjfdNv8xNHuzCG7" target="_blank"
          class="btn-primary text-white font-bold px-12 py-5 rounded-2xl text-xl inline-flex items-center gap-3">
@@ -727,10 +727,10 @@ function parseMarkdown(text) {
     linkResult += boldResult[j]
     j++
   }
-  // 3) Newlines
+  // 3) Newlines (charCode 10 = LF)
   let out = ''
   for (let k = 0; k < linkResult.length; k++) {
-    out += linkResult[k] === '\n' ? '<br>' : linkResult[k]
+    out += linkResult.charCodeAt(k) === 10 ? '<br>' : linkResult[k]
   }
   return out
 }
